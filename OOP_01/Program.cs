@@ -27,7 +27,7 @@
             DeliveryAddress address = new DeliveryAddress("New York", "5th Avenue", 123);
             DeliveryAddress address1 = address;
             address1.City = "Los Angeles";
-            address1.Street = "Sunset Boulevard";
+            address1.Street = "Sunset Boulevrd";
             address1.BuildingNumber = 456;
             Console.WriteLine(address.GetFullAddress());
             Console.WriteLine(address1.GetFullAddress());
